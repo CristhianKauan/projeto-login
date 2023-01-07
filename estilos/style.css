@@ -36,7 +36,7 @@ section#login{
     overflow: hidden; /*tudo que  tiver saindo  esconda*/
     box-shadow:  0px  0px 10px  rgba(0, 0, 0, 0.466) ;
 
-    transition:width .3s, height .3s;
+    transition:width .5s, height .3s;
     transition-timing-function: ease; /*suaviza a animação*/
 }
 
@@ -52,4 +52,10 @@ section#login>div#imagem{
 section#login>div#formulario{
     display: block;
     padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section#login>div#formulario>p{
+    font-size: 0.8em;
 }
