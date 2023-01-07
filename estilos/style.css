@@ -9,7 +9,7 @@ lilás:#5f2c82
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box; /*borda  faz parte da conta da margin e padding*/
+    box-sizing: border-box;/*borda  faz parte da conta da margin e padding*/
 }
 
 body,html{
@@ -32,10 +32,10 @@ section#login{
     position: absolute;
     top: 50%;
     left:50%;
-    transform: translate(-50%, -50%);
     overflow: hidden; /*tudo que  tiver saindo  esconda*/
     box-shadow:  0px  0px 10px  rgba(0, 0, 0, 0.466) ;
 
+    transform: translate(-50%, -50%);
     transition:width .5s, height .3s;
     transition-timing-function: ease; /*suaviza a animação*/
 }
@@ -53,7 +53,6 @@ section#login>div#formulario{
     display: block;
     padding: 10px;
     text-align: center;
-    margin-bottom: 10px;
 }
 
 section#login>div#formulario>p{
@@ -65,11 +64,36 @@ form>div.campo{
   width: 100%;
   display: block;
   height: 40px;
-  border-radius: 10px;
+  border-radius: 8px;
+  border: 2px solid #5f2c82;
   margin: 5px 0px;
+
 }
 div.campo>label{
     display: none;
+}
+
+div.campo>span{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo>input{
+    background-color: #6bddd9;
+    font-size: 1em;
+    width: calc(100% - 44px) ;
+    height: 100%;
+    padding: 4px;
+    border: 0px;
+    border-radius: 8px;
+    
+    transform: translateY(-13px);
+}
+
+div.campo>input:focus-within{ /*quando estiver digitando*/
+    background-color: white;
 }
 
 form>input[type=submit]{
@@ -80,7 +104,7 @@ form>input[type=submit]{
     background-color:#49a09d ;
     color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
     cursor: pointer; /*quando passar o mouse por cima virar a mão*/
 }
 form>input[type=submit]:hover{
@@ -97,7 +121,7 @@ form>a.botao{
     border: 2px solid #49a09d ;
     text-decoration: none;
     color: #2d615f;
-    border-radius: 10px;
+    border-radius: 8px;
     cursor: pointer;
     padding-top: 5px;
     margin-top: 5px;
