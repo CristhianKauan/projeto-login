@@ -3,6 +3,7 @@
 /*Paleta  de Cores
 verde:#49a09d
 lilás:#5f2c82
+6bddd9
 */
 
 *{
@@ -81,7 +82,7 @@ div.campo>span{
 }
 
 div.campo>input{
-    background-color: #6bddd9;
+    background-color: #bbdd6b;
     font-size: 1em;
     width: calc(100% - 44px) ;
     height: 100%;
