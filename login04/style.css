@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,html{
+ background: #095c30 url(green/pexels-luis-dalvan-1770809.jpg);
+ background-position: bottom center;  
+ background-size: cover;
+ position: relative;
+ background-repeat: no-repeat;
+ width: 100vw;
+ height: 100vh;
+ color: #08532b;
+ text-align: center;
+}
+::-webkit-scrollbar{
+    display: none;
+    }
+    
+
+section#formulario{
+    background-color: white;
+    height: 550px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+
+}
+
+div#imagem{
+    height: 200px;
+    background: url(green/pexels-richa-sharma-4271259.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 9px 9px 0px 0px;
+}
+
+div.campo{
+    background-color: #08532b;
+    margin-top: 5px;
+    border-radius: 10px;
+    
+}
+
+h1,p{
+    margin: 10px;
+}
+
+div#form{
+    margin: 5px;
+    position: relative;
+}
+
+div.campo>input{
+    background-color: #77ecae;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: calc(100% - 50px);
+    text-align: center;
+    transform: translate(-5px, -2px);
+
+}
+
+div.campo>span{
+    color: white;
+    width: 40px;
+}
+
+footer{
+    color: #ffffff;
+    margin: 20px;
+    text-align: center;
+    
+}
