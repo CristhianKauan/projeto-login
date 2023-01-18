@@ -89,7 +89,7 @@ div.campo>span{
 }
 
 div.campo>input{
-    width: calc(100% - 44px);
+    width: calc(100% - 49px);
     height: 30px;
     text-align: center;
     transform: translate(-13px, -3px);
