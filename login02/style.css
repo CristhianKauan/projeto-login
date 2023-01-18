@@ -96,12 +96,14 @@ div.campo>input{
     border: none;
     background: #37318f;
     border-radius: 10px;
+    color: rgb(255, 255, 255);
     
 }
 
 div.campo>input:focus-within{
 
     background-color: #ffffff;
+    color: #5650DB;
 }
 
 

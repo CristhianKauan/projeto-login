@@ -5,8 +5,8 @@ function mudar(){
 if(n%2==0)
 {login.style.background = '#25225C' 
 login.style.color='white'
-entrar.style.background='black'
-entra.style.background='black'
+entrar.style.background='#49317D'
+entra.style.background='#49317D'
 n=1}
 else
 {login.style.background = 'white'
