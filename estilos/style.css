@@ -27,12 +27,34 @@ header{
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
-    width: 200px;
+    width: 300px;
 }
 
 span#purple{
     color: #ffffff;
     font-size: 3em;
+    margin: 5px;
+}
+span#purple:hover{
+    color: #7f55da;
+}
+
+span#blue{
+    color: #ffffff;
+    font-size: 3em;
+    margin: 5px;
+}
+span#blue:hover{
+    color: #326fdf;
+}
+
+span#red{
+    color: #ffffff;
+    font-size: 3em;
+    margin: 5px;
+}
+span#red:hover{
+    color: #b9262e;
 }
 
 main{
