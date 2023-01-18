@@ -5,7 +5,7 @@
 }
 
 body{
-    background: url(imagens/pexels-irina-iriser-768900.jpg);
+    background: #6D46C2 url(imagens/pexels-irina-iriser-768900.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -101,9 +101,9 @@ div.campo>input{
 }
 
 div.campo>input:focus-within{
-
+    
     background-color: #ffffff;
-    color: #5650DB;
+    color: #5750db;
 }
 
 
