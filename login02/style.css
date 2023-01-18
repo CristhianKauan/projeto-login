@@ -5,7 +5,9 @@
 }
 
 body{
-    background-image: linear-gradient(#6D46C2, #5650DB,#9B97E1, #5A4D75, #422A75);
+    background: url(imagens/pexels-rovenimagescom-949585.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
 }
 ::-webkit-scrollbar{
