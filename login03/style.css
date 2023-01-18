@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background: linear-gradient(to top, #7D0A00, #C91100 , #FC1500,#FD5B4C);
+    background: url(imagens/pexels-david-bartus-2379653.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    color:#7D0A00 ;
+}
+::-webkit-scrollbar{
+    display: none;
+    }
+
+section#login{
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius:10px;
+
+}
+
+section>div#imagem{
+    background: url(imagens/pexels-lisa-fotios-858128.jpg);
+    background-position: right center;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0px  0px;
+}
+
+h1,p{
+ margin: 10px;
+}
+
+div#form{
+    margin: 5px;
+}
+
+div.campo{
+    background-color: #FD5B4C;
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+    margin-top: 5px;
+
+
+}
+div.campo>input{
+    background-color: #7D0A00;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: calc(100% - 54px);
+    text-align: center;
+    color: white;
+    
+}
+div.campo>span{
+    color: white;
+    width: 40px;
+    transform: translate(0px, 7px);
+}
+
+input[type=submit]{
+    border: none;
+    background-color: #FD5B4C;
+    color: white;
+    border-radius: 10px;
+    width: 80%;
+    height: 25px;
+    margin-top: 20px;
+}
+
+div#esqueci>a{
+    border: none;
+    text-decoration: none;
+    color: white;
+    
+
+
+
+    
+}
+
+div#esqueci{
+
+
+
+    background-color: #FD5B4C;
+
+    border-radius: 10px;
+    width: 80%;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25px;
+    }
+
+    footer{
+       margin-top: 100px;
+    }
