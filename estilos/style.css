@@ -37,25 +37,47 @@ div#cabecalho{
     width: 100vw;
 }
 
+
 span#purple{
     color: #ffffff;
     font-size: 3em;
-    margin: 5px;
+    transform: translateX(-225px);
 }
 span#purple:hover{
     color: #7f55da;
 }
 
+span#red{
+    color: #ffffff;
+    font-size: 3em;
+    transform: translateX(25px);
+
+}
+span#red:hover{
+    color: #b9262e;
+}
+
 span#blue{
     color: #ffffff;
     font-size: 3em;
-    margin: 5px;
+    transform: translateX(275px);
 }
 span#blue:hover{
     color: #dfce32;
 }
 
+span#all{
+    color: white;
+    font-size: 3em;
 
+    text-align: center;
+    transform: translateX(400px);
+}
+
+span#all:hover{
+    color: #49a09d;
+    cursor: default;
+}
 
 main{
     height: 100vh;
@@ -179,14 +201,7 @@ form>a.botao:hover{
 }
 
 
-span#red{
-    color: #ffffff;
-    font-size: 3em;
-    margin: 5px;
-}
-span#red:hover{
-    color: #b9262e;
-}
+
 
 
 iframe{
