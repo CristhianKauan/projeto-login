@@ -14,7 +14,9 @@ lilás:#5f2c82
 }
 
 body,html{
-    background-color: #5f2c82;
+    background: #5f2c82 url(../imagens/d.jpg);
+    background-size: cover;
+    background-position:  center right;
     height: 100vh;
     width: 100vw;
     overflow: hidden;
@@ -45,7 +47,7 @@ span#blue{
     margin: 5px;
 }
 span#blue:hover{
-    color: #326fdf;
+    color: #dfce32;
 }
 
 span#red{
@@ -80,9 +82,11 @@ section#login{
 
 section#login>div#imagem{
     display: block;
-    background: #5f2c82 url(../imagens/pexels-abdulvahap-demir-15020722.jpg);
+    background: #5f2c82 url(../imagens/bobo.jpg);
     background-size: cover;
+
     background-repeat: no-repeat;
+
     height: 200px;
     background-position: bottom left;
 }
@@ -117,9 +121,12 @@ div.campo>span{
     width: 40px;
     padding: 5px;
 }
+::placeholder{
+    color: white;
+}
 
 div.campo>input{
-    background-color: #bbdd6b;
+    background-color: #896bdd;
     font-size: 1em;
     width: calc(100% - 44px) ;
     height: 100%;

@@ -46,11 +46,12 @@ section#login{
 
 h1{
     text-align: center;
-    padding: 5px;
+    margin: 15px;
 }
 
 p{
     text-align: center;
+    margin: 15px;
 }
 
 
@@ -119,6 +120,9 @@ form>a.botao{
 
 
 }
+form>a.botao:hover{
+    background: #4640ad;
+}
 
 
 form>input[type=submit]{
@@ -131,7 +135,14 @@ form>input[type=submit]{
     height: 30px;
     border-radius: 10px;
     margin-top: 5px;
+    cursor: pointer;
 }
+
+form>input[type=submit]:hover{
+    background: #4640ad;
+}
+
+
 a.botao>span{
     font-size: 1em;
     margin-top: 3px;

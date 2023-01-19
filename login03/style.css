@@ -59,7 +59,7 @@ div.campo{
 
 }
 div.campo>input{
-    background-color: #7D0A00;
+    background-color: #b64036;
     border: none;
     border-radius: 10px;
     height: 30px;
@@ -68,6 +68,16 @@ div.campo>input{
     color: white;
     
 }
+
+::placeholder{
+    color: white;
+}
+
+div.campo>input:focus-within{
+    background-color: white;
+    color: #7D0A00;
+}
+
 div.campo>span{
     color: white;
     width: 40px;
@@ -82,31 +92,31 @@ input[type=submit]{
     width: 80%;
     height: 25px;
     margin-top: 20px;
+    cursor:pointer ;
 }
-
+input[type=submit]:hover{
+    background: #7D0A00;
+}
 div#esqueci>a{
     border: none;
     text-decoration: none;
     color: white;
     
-
-
-
-    
 }
 
 div#esqueci{
-
-
-
     background-color: #FD5B4C;
-
     border-radius: 10px;
     width: 80%;
     margin-top: 8px;
+    padding: 3px;
     margin-left: auto;
     margin-right: auto;
     height: 25px;
+    }
+
+    div#esqueci:hover{
+        background: #7D0A00;
     }
 
     footer{

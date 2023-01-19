@@ -5,16 +5,23 @@
 }
 
 body,html{
- background: #095c30 url(green/pexels-luis-dalvan-1770809.jpg);
+ background: #E7EB46 url(yellow/pexels-todd-trapani-5241874\ \(1\).jpg);
  background-position: bottom center;  
  background-size: cover;
  position: relative;
  background-repeat: no-repeat;
  width: 100vw;
  height: 100vh;
- color: #08532b;
+ color: black;
  text-align: center;
 }
+
+main{
+    width: 100vw;
+    height: 95vh;
+}
+
+
 ::-webkit-scrollbar{
     display: none;
     }
@@ -29,19 +36,19 @@ section#formulario{
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
-
 }
 
 div#imagem{
     height: 200px;
-    background: url(green/pexels-richa-sharma-4271259.jpg);
+    background: url(yellow/pexels-asya-vlasova-4234034.jpg);
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 9px 9px 0px 0px;
 }
 
 div.campo{
-    background-color: #08532b;
+    background-color: #c9cc1f;
     margin-top: 5px;
     border-radius: 10px;
     
@@ -49,6 +56,11 @@ div.campo{
 
 h1,p{
     margin: 10px;
+    text-decoration: dotted;
+}
+
+h1{
+    text-decoration: underline;
 }
 
 div#form{
@@ -57,19 +69,70 @@ div#form{
 }
 
 div.campo>input{
-    background-color: #77ecae;
+    background-color: #ECEE8F;
     border: none;
     border-radius: 10px;
     height: 30px;
     width: calc(100% - 50px);
     text-align: center;
-    transform: translate(-5px, -2px);
+    transform: translate(-5px, -2.5px);
 
+}
+div.campo>input:focus-within{
+    background-color: #ffffff;
+    color:#000000;
 }
 
 div.campo>span{
     color: white;
     width: 40px;
+    transform: translateY(4px);
+}
+
+input[type=submit]{
+    background-color:#E7EB46;
+    color: black;
+
+    font-size: 1em;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 80%;
+    margin-top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transform: translate(-5px, -2.5px);
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background: black;
+    color: #B5B837;
+}
+
+a{
+    display: block;
+    background-color: #E7EB46;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+
+    font-size: 1em;
+    margin-top: 5px;
+    padding: 2px;
+    height: 25px;
+    width: 80%;
+    text-align: center;
+    transform: translateX(23px);
+}
+
+a:hover{
+    background: black;
+    color: #B5B837;
+}
+
+a>span#mail{
+    font-size: 15px;
+    transform: translateY(4px);
 }
 
 footer{
