@@ -13,19 +13,27 @@
 </head>
 <body>
     <header>
-        <a href="login02/index.html" target="_blank"><span class="material-symbols-outlined" id="purple" >
-            link
-        </span></a>
 
-        <a href="login04/index.html" target="_blank"><span class="material-symbols-outlined" id="blue" >
-            link
-        </span></a>
+            <div id="cabecalho">
+                <a href="login02/index.html" target="_blank"><span class="material-symbols-outlined" id="purple" onmouseenter="mostrar(1)" onmouseleave="esconder(1)" >
+                    link
+                </span></a>
+                <a href="#" target=""><span class="material-symbols-outlined" id="red" onmouseenter="mostrar(2)" onmouseleave="esconder(2)" >
+                    link
+                </span></a>
+                <a href="login04/index.html" target="_blank"><span class="material-symbols-outlined" id="blue" onmouseenter="mostrar(3)" onmouseleave="esconder(3)" >
+                    link
+                </span></a>
+            </div>
 
-        <a href="login03/index.html" target="_blank"><span class="material-symbols-outlined" id="red" >
-            link
-        </span></a>
+
+       
+      
+
             
-
+        <iframe src="login02/index.html" frameborder="0" id="framep"></iframe>
+        <iframe src="login03/index.html" frameborder="0" id="framer"></iframe>
+        <iframe src="login04/index.html" frameborder="0" id="framey"></iframe>
     </header>
     <main>
         <section id="login">
@@ -55,9 +63,10 @@
                     <a href="esqueci.html" class="botao">Esqueci a Senha  <span class="material-symbols-outlined"> mail </span></a>
                     
                 </form>
-
+                
             </div>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
