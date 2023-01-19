@@ -20,15 +20,13 @@ main{
     position: relative;
 }
 
-input#change{
-    background: url(imagens/icone-de-configuration-violette.png);
-    background-size: 40px;
-    background-repeat: no-repeat;
-    border: none;
-    height: 50px;
-    width: 50px;
-   
-    
+
+span#color{
+    color: #5750db;
+    font-size: 4em;
+    cursor: pointer;
+    position: fixed;
+
 }
 
 section#login{
