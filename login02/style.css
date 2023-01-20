@@ -46,6 +46,7 @@ section#login{
 h1{
     text-align: center;
     margin: 15px;
+    text-decoration: underline;
 }
 
 p{

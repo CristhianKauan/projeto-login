@@ -40,7 +40,9 @@ section>div#imagem{
     height: 200px;
     border-radius: 10px 10px 0px  0px;
 }
-
+h1{
+    text-decoration: underline;
+}
 h1,p{
  margin: 15px;
 }
