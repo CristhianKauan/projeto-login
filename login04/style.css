@@ -8,12 +8,14 @@ body,html{
  background: #E7EB46 url(yellow/pexels-todd-trapani-5241874\ \(1\).jpg);
  background-position: bottom center;  
  background-size: cover;
+ background-attachment: fixed;
  position: relative;
  background-repeat: no-repeat;
  width: 100vw;
  height: 100vh;
  color: black;
  text-align: center;
+ overflow: hidden;
 }
 
 main{
