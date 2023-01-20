@@ -33,6 +33,37 @@ header{
     width: 100vw;
 }
 
+
+img{
+    width: 40px;
+}
+
+div#pages>img#lavanda{
+    transform: translateX(-255px);
+}
+div#pages>img#lavanda:hover{
+    opacity: 0.4;
+    transition: opacity s;
+}
+
+
+div#pages>img#tulipa{
+    transform: translateX(0);
+}
+div#pages>img#tulipa:hover{
+    opacity: 0.4;
+    transition: opacity s;
+}
+
+
+div#pages>img#girassol{
+    transform: translateX(255px);
+}
+div#pages>img#girassol:hover{
+    opacity: 0.4;
+    transition: opacity s;
+}
+
 div#cabecalho{
     width: 100vw;
 }
