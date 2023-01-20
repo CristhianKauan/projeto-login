@@ -55,7 +55,7 @@ div.campo{
 }
 
 h1,p{
-    margin: 10px;
+    margin: 15px;
     text-decoration: dotted;
 }
 
@@ -125,6 +125,8 @@ a{
     transform: translateX(23px);
 }
 
+
+
 a:hover{
     background: black;
     color: #B5B837;
@@ -137,7 +139,7 @@ a>span#mail{
 
 footer{
     color: #000000;
-    margin: 20px;
+    margin-top: 40px;
     text-align: center;
     
 }

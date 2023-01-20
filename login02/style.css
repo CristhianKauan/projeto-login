@@ -9,6 +9,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    overflow: hidden;
 }
 ::-webkit-scrollbar{
 display: none;
@@ -122,6 +123,10 @@ form>a.botao:hover{
     background: #4640ad;
 }
 
+form>a.botao>span{
+    transform: translateY(4px);
+}
+
 
 form>input[type=submit]{
     border: none;
@@ -147,7 +152,7 @@ a.botao>span{
 }
 
 footer{
-    color: #ffffff;
+    color: #6D46C2;
     margin: 20px;
     text-align: center;
     
