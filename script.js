@@ -1,7 +1,7 @@
 
 
 function mostrar(x){
-    
+    var framer=document.getElementById('framep')
 
     switch(x){
 
