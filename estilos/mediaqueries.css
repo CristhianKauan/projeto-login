@@ -63,3 +63,20 @@ tv: acima 1200px
 
 
 }
+
+@media screen and (max-width:660px){
+
+    img{
+        width: 40px;
+        margin-left: 40px;
+    }
+    
+    img#lavanda, img#tulipa, img#girassol{
+        transform: translateX(0px);
+    }
+    
+    span#all{
+       display: none;
+    }
+
+}
