@@ -1,6 +1,5 @@
 @charset   "UTF-8";
 
-
 /*Paleta  de Cores
 verde:#49a09d
 lilás:#5f2c82
@@ -35,7 +34,6 @@ header{
     width: 100vw;
 }
 
-
 img{
     width: 40px;
 }
@@ -43,8 +41,6 @@ img{
 img#lavanda{
     transform: translateX(-235px);
 }
-
-
 
 img#tulipa{
     transform: translateX(30px);
@@ -67,8 +63,6 @@ div#cabecalho{
     text-align: center;
 
 }
-
-
 
 span#all{
     color: white;
@@ -107,9 +101,7 @@ section#login>div#imagem{
     display: block;
     background: #5f2c82 url(../imagens/bobo.jpg);
     background-size: cover;
-
     background-repeat: no-repeat;
-
     height: 200px;
     background-position: bottom left;
 }
